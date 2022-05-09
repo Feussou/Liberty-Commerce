@@ -1,0 +1,38 @@
+
+
+
+
+.Copyright
+{
+    margin: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    bottom: 0px;
+    position: fixed;
+}
+
+.reseau{
+float: right;
+justify-content: space-between;
+}
+
+.logotwi
+{
+    width: 30px;
+    margin-right: 4px; 
+    margin-bottom: 2px;
+}
+.logofacebook
+{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+}

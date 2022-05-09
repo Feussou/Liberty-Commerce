@@ -1,0 +1,103 @@
+.connexion
+{
+    margin-left: 500px;
+}
+
+.menu
+{
+    background-color: rgba(0, 0, 0);
+    width: 100%;
+    height: 65px;
+    line-height: 65px;
+    position: fixed;
+    margin-top: -300px;
+    z-index: 999;
+}   
+
+.m-left
+{
+    float: left;
+}
+
+a:link 
+{ 
+ text-decoration:none; 
+ color: white;
+ padding: 10; margin: 0 15px;
+ margin-left: 35px;
+ transition: all 0.3s ease-in-out;
+ border-bottom: 2px solid transparent;
+}
+
+a:hover 
+{
+    padding-bottom: 3px;
+    border-color: thistle; 
+    color:purple;
+}
+
+a:visited
+{
+    color: white;
+}
+a:hover:visited 
+{
+    padding-bottom: 3px;
+    border-color: thistle; 
+    color:purple;
+}
+
+.m-right
+{
+    float: right;
+}
+.m-right>.connexion
+{
+    float: right ;
+    margin-top: 1px;
+    margin-right: 15px ;
+    font-family: 'Courier New', Courier, monospace;
+    color: white; 
+}
+
+.m-right>.connexion:hover
+{
+    color: purple;
+}
+
+.logo
+{
+    float: left;
+    margin-left: 30px ;
+    margin-top: 1px;
+    color: white;
+    font-family: 'Courier New', monospace;
+}
+
+.m-right>.user .user-name .name
+{
+    float: right ;
+    margin-top: 1px;
+    margin-right: 15px ;
+    font-family: 'Courier New', Courier, monospace;
+    color: white; 
+}
+
+.m-right>.user:hover
+{
+    color: purple;
+}
+
+.ex-right{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin-right: 40;
+}
+
+form {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    width: 80%;
+    margin-top: -165px;
+    padding-left: 80%;
+}

@@ -1,0 +1,1062 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html{
+    background: url(../ressources/space.png);
+    background-size: cover;
+    background-size: 100%;
+    overflow: hidden;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.contenaire
+{
+    margin-top: 1750px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px;
+
+}
+
+.carte
+{
+    height: 660px;
+    width: 280px;
+    gap: 20px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+body
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;
+}
+
+.card-jupiter
+.content-jupiter
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.card-jupiter
+{
+    height: 50%;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 5%;
+    border-top: 1px solid rgb(125, 125, 125);
+    border-left: 1px solid rgb(125, 125, 125);
+}
+
+
+.card-jupiter .content-jupiter::before
+{
+    font-family: 'Times New Roman', Times, serif;
+    content: "JUPITER";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 5em;
+    color: rgba(240, 240, 240, 0.123);
+    font-weight: bolder;
+    line-height: 0.8em;
+
+}
+
+.card-jupiter
+.content-jupiter
+.picture-jupiter
+{
+    width: 25%;
+    height: 20%;
+    margin: 0 auto;
+    overflow: visible;
+}
+
+.card-jupiter .content-jupiter .picture-jupiter img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.card-jupiter .content-jupiter h1,
+.card-jupiter .content-jupiter p,
+.card-jupiter .content-jupiter a
+{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 65%;
+}
+
+.card-jupiter .content-jupiter h1
+{
+    margin-bottom: 10px;
+    font-size: 110%;
+}
+
+.card-jupiter .content-jupiter a
+{
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 5%;
+    background: linear-gradient(to left,#380238, #051955);
+    padding: 8px 5px;
+    border-radius: 3px;
+    margin-top: 20px;
+    box-shadow: 0 0 30px 5px #600694; 
+}
+
+
+.card-mars
+.content-mars
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.card-mars
+{
+    height: 50%;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 5%;
+    border-top: 1px solid rgb(125, 125, 125);
+    border-left: 1px solid rgb(125, 125, 125);
+}
+
+
+.card-mars .content-mars::before
+{
+    font-family: 'Times New Roman', Times, serif;
+    content: "MARS";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 5em;
+    color: rgba(240, 240, 240, 0.123);
+    font-weight: bolder;
+    line-height: 0.8em;
+
+}
+
+.card-mars
+.content-mars
+.picture-mars
+{
+    width: 25%;
+    height: 20%;
+    margin: 0 auto;
+    overflow: visible;
+}
+
+.card-mars .content-mars .picture-mars img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.card-mars .content-mars h1,
+.card-mars .content-mars p,
+.card-mars .content-mars a
+{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 65%;
+}
+
+.card-mars .content-mars h1
+{
+    margin-bottom: 10px;
+    font-size: 110%;
+}
+
+.card-mars .content-mars a
+{
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 5%;
+    background: linear-gradient(to left,#380238, #051955);
+    padding: 8px 5px;
+    border-radius: 3px;
+    margin-top: 20px;
+    box-shadow: 0 0 30px 5px #600694; 
+}
+
+.card-lune
+.content-lune
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.card-lune
+{
+    height: 50%;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 5%;
+    border-top: 1px solid rgb(125, 125, 125);
+    border-left: 1px solid rgb(125, 125, 125);
+}
+
+
+.card-lune .content-lune::before
+{
+    font-family: 'Times New Roman', Times, serif;
+    content: "LUNE";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 5em;
+    color: rgba(240, 240, 240, 0.123);
+    font-weight: bolder;
+    line-height: 0.8em;
+
+}
+
+.card-lune
+.content-lune
+.picture-lune
+{
+    width: 25%;
+    height: 20%;
+    margin: 0 auto;
+    overflow: visible;
+}
+
+.card-lune .content-lune .picture-lune img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.card-lune .content-lune h1,
+.card-lune .content-lune p,
+.card-lune .content-lune a
+{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 65%;
+}
+
+.card-lune .content-lune h1
+{
+    margin-bottom: 10px;
+    font-size: 110%;
+}
+
+.card-lune .content-lune a
+{
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 5%;
+    background: linear-gradient(to left,#380238, #051955);
+    padding: 8px 5px;
+    border-radius: 3px;
+    margin-top: 20px;
+    box-shadow: 0 0 30px 5px #600694; 
+}
+
+.card-exoplanete
+.content-exoplanete
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.card-exoplanete
+{
+    height: 50%;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 5%;
+    border-top: 1px solid rgb(125, 125, 125);
+    border-left: 1px solid rgb(125, 125, 125);
+}
+
+
+.card-exoplanete .content-exoplanete::before
+{
+    font-family: 'Times New Roman', Times, serif;
+    content: "EXOPLANETE";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 5em;
+    color: rgba(240, 240, 240, 0.123);
+    font-weight: bolder;
+    line-height: 0.8em;
+
+}
+
+.card-exoplanete
+.content-exoplanete
+.picture-exoplanete
+{
+    width: 25%;
+    height: 20%;
+    margin: 0 auto;
+    overflow: visible;
+}
+
+.card-exoplanete .content-exoplanete .picture-exoplanete img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.card-exoplanete .content-exoplanete h1,
+.card-exoplanete .content-exoplanete p,
+.card-exoplanete .content-exoplanete a
+{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 65%;
+}
+
+.card-exoplanete .content-exoplanete h1
+{
+    margin-bottom: 10px;
+    font-size: 110%;
+}
+
+.card-exoplanete .content-exoplanete a
+{
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 5%;
+    background: linear-gradient(to left,#380238, #051955);
+    padding: 8px 5px;
+    border-radius: 3px;
+    margin-top: 20px;
+    box-shadow: 0 0 30px 5px #600694; 
+}
+
+.card-mercure
+.content-mercure
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.card-mercure
+{
+    height: 50%;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 5%;
+    border-top: 1px solid rgb(125, 125, 125);
+    border-left: 1px solid rgb(125, 125, 125);
+}
+
+
+.card-mercure .content-mercure::before
+{
+    font-family: 'Times New Roman', Times, serif;
+    content: "MERCURE";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 5em;
+    color: rgba(240, 240, 240, 0.123);
+    font-weight: bolder;
+    line-height: 0.8em;
+
+}
+
+.card-mercure
+.content-mercure
+.picture-mercure
+{
+    width: 25%;
+    height: 20%;
+    margin: 0 auto;
+    overflow: visible;
+}
+
+.card-mercure .content-mercure .picture-mercure img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.card-mercure .content-mercure h1,
+.card-mercure .content-mercure p,
+.card-mercure .content-mercure a
+{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 65%;
+}
+
+.card-mercure .content-mercure h1
+{
+    margin-bottom: 10px;
+    font-size: 110%;
+}
+
+.card-mercure .content-mercure a
+{
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 5%;
+    background: linear-gradient(to left,#380238, #051955);
+    padding: 8px 5px;
+    border-radius: 3px;
+    margin-top: 20px;
+    box-shadow: 0 0 30px 5px #600694; 
+}
+
+.card-neptune
+.content-neptune
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.card-neptune
+{
+    height: 50%;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 5%;
+    border-top: 1px solid rgb(125, 125, 125);
+    border-left: 1px solid rgb(125, 125, 125);
+}
+
+
+.card-neptune .content-neptune::before
+{
+    font-family: 'Times New Roman', Times, serif;
+    content: "NEPTUNE";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 5em;
+    color: rgba(240, 240, 240, 0.123);
+    font-weight: bolder;
+    line-height: 0.8em;
+
+}
+
+.card-neptune
+.content-neptune
+.picture-neptune
+{
+    width: 25%;
+    height: 20%;
+    margin: 0 auto;
+    overflow: visible;
+}
+
+.card-neptune .content-neptune .picture-neptune img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.card-neptune .content-neptune h1,
+.card-neptune .content-neptune p,
+.card-neptune .content-neptune a
+{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 65%;
+}
+
+.card-neptune .content-neptune h1
+{
+    margin-bottom: 10px;
+    font-size: 110%;
+}
+
+.card-neptune .content-neptune a
+{
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 5%;
+    background: linear-gradient(to left,#380238, #051955);
+    padding: 8px 5px;
+    border-radius: 3px;
+    margin-top: 20px;
+    box-shadow: 0 0 30px 5px #600694; 
+}
+
+
+.card-venus
+.content-venus
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.card-venus
+{
+    height: 50%;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 5%;
+    border-top: 1px solid rgb(125, 125, 125);
+    border-left: 1px solid rgb(125, 125, 125);
+}
+
+
+.card-venus .content-venus::before
+{
+    font-family: 'Times New Roman', Times, serif;
+    content: "VENUS";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 5em;
+    color: rgba(240, 240, 240, 0.123);
+    font-weight: bolder;
+    line-height: 0.8em;
+
+}
+
+.card-venus
+.content-venus
+.picture-venus
+{
+    width: 25%;
+    height: 20%;
+    margin: 0 auto;
+    overflow: visible;
+}
+
+.card-venus .content-venus .picture-venus img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.card-venus .content-venus h1,
+.card-venus .content-venus p,
+.card-venus .content-venus a
+{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 65%;
+}
+
+.card-venus .content-venus h1
+{
+    margin-bottom: 10px;
+    font-size: 110%;
+}
+
+.card-venus .content-venus a
+{
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 5%;
+    background: linear-gradient(to left,#380238, #051955);
+    padding: 8px 5px;
+    border-radius: 3px;
+    margin-top: 20px;
+    box-shadow: 0 0 30px 5px #600694; 
+}
+
+.card-gj-504
+.content-gj-504
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.card-gj-504
+{
+    height: 50%;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 5%;
+    border-top: 1px solid rgb(125, 125, 125);
+    border-left: 1px solid rgb(125, 125, 125);
+}
+
+
+.card-gj-504 .content-gj-504::before
+{
+    font-family: 'Times New Roman', Times, serif;
+    content: "GJ-504";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 5em;
+    color: rgba(240, 240, 240, 0.123);
+    font-weight: bolder;
+    line-height: 0.8em;
+
+}
+
+.card-gj-504
+.content-gj-504
+.picture-gj-504
+{
+    width: 25%;
+    height: 20%;
+    margin: 0 auto;
+    overflow: visible;
+}
+
+.card-gj-504 .content-gj-504 .picture-gj-504 img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.card-gj-504 .content-gj-504 h1,
+.card-gj-504 .content-gj-504 p,
+.card-gj-504 .content-gj-504 a
+{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 65%;
+}
+
+.card-gj-504 .content-gj-504 h1
+{
+    margin-bottom: 10px;
+    font-size: 110%;
+}
+
+.card-gj-504 .content-gj-504 a
+{
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 5%;
+    background: linear-gradient(to left,#380238, #051955);
+    padding: 8px 5px;
+    border-radius: 3px;
+    margin-top: 20px;
+    box-shadow: 0 0 30px 5px #600694; 
+}
+
+
+
+.card-triton
+.content-triton
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.card-triton
+{
+    height: 50%;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 5%;
+    border-top: 1px solid rgb(125, 125, 125);
+    border-left: 1px solid rgb(125, 125, 125);
+}
+
+
+.card-triton .content-triton::before
+{
+    font-family: 'Times New Roman', Times, serif;
+    content: "TRITON";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 5em;
+    color: rgba(240, 240, 240, 0.123);
+    font-weight: bolder;
+    line-height: 0.8em;
+
+}
+
+.card-triton
+.content-triton
+.picture-triton
+{
+    width: 25%;
+    height: 20%;
+    margin: 0 auto;
+    overflow: visible;
+}
+
+.card-triton .content-triton .picture-triton img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.card-triton .content-triton h1,
+.card-triton .content-triton p,
+.card-triton .content-triton a
+{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 65%;
+}
+
+.card-triton .content-triton h1
+{
+    margin-bottom: 10px;
+    font-size: 110%;
+}
+
+.card-triton .content-triton a
+{
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 5%;
+    background: linear-gradient(to left,#380238, #051955);
+    padding: 8px 5px;
+    border-radius: 3px;
+    margin-top: 20px;
+    box-shadow: 0 0 30px 5px #600694; 
+}
+
+
+.card-kepler
+.content-kepler
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.card-kepler
+{
+    height: 50%;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 5%;
+    border-top: 1px solid rgb(125, 125, 125);
+    border-left: 1px solid rgb(125, 125, 125);
+}
+
+
+.card-kepler .content-kepler::before
+{
+    font-family: 'Times New Roman', Times, serif;
+    content: "KEPLER";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 5em;
+    color: rgba(240, 240, 240, 0.123);
+    font-weight: bolder;
+    line-height: 0.8em;
+
+}
+
+.card-kepler
+.content-kepler
+.picture-kepler
+{
+    width: 25%;
+    height: 20%;
+    margin: 0 auto;
+    overflow: visible;
+}
+
+.card-kepler .content-kepler .picture-kepler img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.card-kepler .content-kepler h1,
+.card-kepler .content-kepler p,
+.card-kepler .content-kepler a
+{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 65%;
+}
+
+.card-kepler .content-kepler h1
+{
+    margin-bottom: 10px;
+    font-size: 110%;
+}
+
+.card-kepler .content-kepler a
+{
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 5%;
+    background: linear-gradient(to left,#380238, #051955);
+    padding: 8px 5px;
+    border-radius: 3px;
+    margin-top: 20px;
+    box-shadow: 0 0 30px 5px #600694; 
+}
+
+
+
+.card-new
+.content-new
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.card-new
+{
+    height: 50%;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 5%;
+    border-top: 1px solid rgb(125, 125, 125);
+    border-left: 1px solid rgb(125, 125, 125);
+}
+
+
+.card-new .content-new::before
+{
+    font-family: 'Times New Roman', Times, serif;
+    content: "TRITON";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 5em;
+    color: rgba(240, 240, 240, 0.123);
+    font-weight: bolder;
+    line-height: 0.8em;
+
+}
+
+.card-new
+.content-new
+.picture-new
+{
+    width: 25%;
+    height: 20%;
+    margin: 0 auto;
+    overflow: visible;
+}
+
+.card-new .content-new .picture-new img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.card-new .content-new h1,
+.card-new .content-new p,
+.card-new .content-new a
+{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 65%;
+}
+
+.card-new .content-new h1
+{
+    margin-bottom: 10px;
+    font-size: 110%;
+}
+
+.card-new .content-new a
+{
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 5%;
+    background: linear-gradient(to left,#380238, #051955);
+    padding: 8px 5px;
+    border-radius: 3px;
+    margin-top: 20px;
+    box-shadow: 0 0 30px 5px #600694; 
+}
+
+
+.card-exo
+.content-exo
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.card-exo
+{
+    height: 50%;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 5%;
+    border-top: 1px solid rgb(125, 125, 125);
+    border-left: 1px solid rgb(125, 125, 125);
+}
+
+
+.card-exo .content-exo::before
+{
+    font-family: 'Times New Roman', Times, serif;
+    content: "EXO";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 5em;
+    color: rgba(240, 240, 240, 0.123);
+    font-weight: bolder;
+    line-height: 0.8em;
+
+}
+
+.card-exo
+.content-exo
+.picture-exo
+{
+    width: 25%;
+    height: 20%;
+    margin: 0 auto;
+    overflow: visible;
+}
+
+.card-exo .content-exo .picture-exo img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.card-exo .content-exo h1,
+.card-exo .content-exo p,
+.card-exo .content-exo a
+{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 65%;
+}
+
+.card-exo .content-exo h1
+{
+    margin-bottom: 10px;
+    font-size: 110%;
+}
+
+.card-exo .content-exo a
+{
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 5%;
+    background: linear-gradient(to left,#380238, #051955);
+    padding: 8px 5px;
+    border-radius: 3px;
+    margin-top: 20px;
+    box-shadow: 0 0 30px 5px #600694; 
+}

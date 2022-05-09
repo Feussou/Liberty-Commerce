@@ -1,0 +1,27 @@
+body
+{
+    background: url("../ressources/space.png") no-repeat;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.322);
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 6%;
+    border-radius: 30px;
+
+}
+
+label{
+    justify-content: center;
+    background-color: rgba(104, 102, 102, 0.452);
+    border-radius: 5px;
+}
+
+.logo{
+    margin-top: 3%;
+    margin-left: 45%;
+}
